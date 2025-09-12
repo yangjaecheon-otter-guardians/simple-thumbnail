@@ -3,7 +3,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { useRecoilState, useRecoilValue } from 'recoil';
 import { isImageBright, previewImage, ratioAtom } from '../atom';
 
-const HEIGHT = 280;
+const HEIGHT = 800;
 
 const UnsplashUploader = () => {
   let timer: NodeJS.Timer | null = null;
