@@ -12,7 +12,7 @@
     </tr>
     <tr>
         <th>배포</th>
-        <td><a href="#">🛠️simple thumbnail🛠️</a></td>
+        <td><a href="https://simple-thumbnail.com/">🛠️simple thumbnail🛠️</a></td>
     </tr>
     <tr>
         <th>디자인</th>
@@ -49,7 +49,7 @@
 ## 📌 Getting Start
 
 ```shell
-git clone 'https://github.com/Yangjaecheon-Otter-Guardians/simple-thumbnail.git'
+git clone 'https://github.com/yangjaecheon-otter-guardians/simple-thumbnail.git'
 npm install
 npm start
 ```
@@ -81,7 +81,7 @@ npm start
 - react-helmet-async
     - HTML의 head 태그를 관리하기 위한 라이브러리입니다.
 
-[package.json 바로가기](https://github.com/Yangjaecheon-Otter-Guardians/simple-thumbnail/blob/main/frontend/package.json)
+[package.json 바로가기](https://github.com/yangjaecheon-otter-guardians/simple-thumbnail/blob/main/frontend/package.json)
 
 <br />
 

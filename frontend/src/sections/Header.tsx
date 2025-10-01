@@ -1,4 +1,4 @@
-import { ReactComponent as TEXT_LOGO } from 'assets/logo_black.svg';
+import { ReactComponent as TEXT_LOGO } from 'assets/big_logo.svg';
 
 function Header() {
   const handleInitial = () => {
