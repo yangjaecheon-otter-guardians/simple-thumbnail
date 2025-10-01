@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9ec2c574.css",
-    "main.js": "/static/js/main.4d705f59.js",
+    "main.js": "/static/js/main.e87ccd28.js",
     "static/media/SB-어그로OTF-B.woff2": "/static/media/SB-어그로OTF-B.c07f82b5d952c9a46ada.woff2",
     "static/media/SB-어그로OTF-M.woff2": "/static/media/SB-어그로OTF-M.703a747617238b11a96b.woff2",
     "static/media/SB-어그로OTF-L.woff2": "/static/media/SB-어그로OTF-L.6eab6bfcd65beb8bcc9a.woff2",
@@ -16,14 +16,14 @@
     "static/media/SUIT-ExtraLight.woff2": "/static/media/SUIT-ExtraLight.c0dbbc376c17ab46ebb2.woff2",
     "static/media/SUIT-Thin.woff2": "/static/media/SUIT-Thin.ed140efdbdcbe891b000.woff2",
     "static/media/logo_default.svg": "/static/media/logo_default.acf0e4ad88838726743b7f138b33c0bd.svg",
-    "static/media/logo_black.svg": "/static/media/logo_black.fa6d287fff234254765bd740cb03f1ec.svg",
+    "static/media/big_logo.svg": "/static/media/big_logo.1db4b8ad20a7e0dd624297d27c049de5.svg",
     "index.html": "/index.html",
     "static/media/github.svg": "/static/media/github.6a4bf11bfb2a7bc2f687b0db9e57d233.svg",
     "main.9ec2c574.css.map": "/static/css/main.9ec2c574.css.map",
-    "main.4d705f59.js.map": "/static/js/main.4d705f59.js.map"
+    "main.e87ccd28.js.map": "/static/js/main.e87ccd28.js.map"
   },
   "entrypoints": [
     "static/css/main.9ec2c574.css",
-    "static/js/main.4d705f59.js"
+    "static/js/main.e87ccd28.js"
   ]
 }
