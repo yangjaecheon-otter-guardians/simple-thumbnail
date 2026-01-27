@@ -81,14 +81,15 @@ npm start
 - react-helmet-async
     - HTML의 head 태그를 관리하기 위한 라이브러리입니다.
 
-[package.json 바로가기](https://github.com/yangjaecheon-otter-guardians/simple-thumbnail/blob/main/frontend/package.json)
+[package.json 바로가기](https://github.com/yangjaecheon-otter-guardians/simple-thumbnail/blob/main/package.json)
 
 <br />
 
 ## 📌 File Structure
 
-```
-📦frontend
+```text
+📦simple-thumbnail
+ ┣ 📂.github  # GitHub Actions 워크플로우 및 템플릿
  ┣ 📂public
  ┣ 📂src
  ┃ ┣ 📂assets  # 번들링 되어야하는 자산을 모아둔 폴더입니다.
