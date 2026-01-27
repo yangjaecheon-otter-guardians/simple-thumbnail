@@ -87,7 +87,7 @@ npm start
 
 ## 📌 File Structure
 
-```
+```text
 📦simple-thumbnail
  ┣ 📂.github  # GitHub Actions 워크플로우 및 템플릿
  ┣ 📂public
