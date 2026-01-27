@@ -9,7 +9,7 @@ const FIXED_WIDTH = FIXED_HEIGHT * FIXED_RATIO; // 고정 값으로 이미지 �
 const RANDOM_URL = `https://picsum.photos/${FIXED_WIDTH}/${FIXED_HEIGHT}`; //
 
 const UnsplashUploader = () => {
-  let timer: NodeJS.Timer | null = null;
+  let timer: ReturnType<typeof setTimeout> | null = null;
   const [imageSrc, setImageSrc] = useRecoilState(previewImage);
   const [isBright, setIsBright] = useRecoilState(isImageBright);
   const [isLoading, setIsLoading] = useState<boolean>(false);
