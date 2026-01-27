@@ -1,4 +1,4 @@
-import { ReactComponent as TEXT_LOGO } from 'assets/big_logo.svg';
+import textLogo from 'assets/big_logo.svg';
 
 function Header() {
   const handleInitial = () => {
@@ -18,7 +18,7 @@ function Header() {
         <button className="w-[100px] text-left disabled:opacity-50 hover:font-bold" onClick={handleInitial}>
           초기화
         </button>
-        <TEXT_LOGO style={{ height: '24px' }} />
+        <img src={textLogo} alt="Simple Thumbnail" style={{ height: '24px' }} />
         <div className="w-[100px]" />
       </div>
     </div>
