@@ -16,7 +16,7 @@ function Dropdown<T extends string>({ defaultValue: value, list, handleChange, s
   const [titleStyle, setTitleStyle] = useState(styleList ? styleList[value ?? 0] : '');
   const [dropdownList, setDropdownList] = useState(
     list.map((elem, idx) => {
-      return { content: elem, checked: idx === value ?? 0 ? true : false };
+      return { content: elem, checked: idx === (value ?? 0) };
     }),
   );
 
