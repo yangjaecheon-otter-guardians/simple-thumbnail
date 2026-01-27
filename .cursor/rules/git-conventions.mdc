@@ -1,0 +1,60 @@
+---
+description: Git 커밋 메시지 및 브랜치 네이밍 컨벤션
+globs:
+alwaysApply: true
+---
+
+# Git 컨벤션
+
+## 커밋 메시지
+
+Conventional Commit 형식을 사용하며, 본문은 한글로 작성합니다.
+
+### 형식
+
+```
+<type>: <subject>
+
+<body (선택)>
+```
+
+### Type
+
+- `feat`: 새로운 기능 추가
+- `fix`: 버그 수정
+- `refactor`: 코드 리팩토링 (기능 변경 없음)
+- `style`: 코드 포맷팅, 세미콜론 누락 등 (기능 변경 없음)
+- `docs`: 문서 수정
+- `test`: 테스트 코드 추가/수정
+- `chore`: 빌드 설정, 패키지 매니저 설정 등
+
+### 예시
+
+```
+feat: 텍스트 레이아웃 선택 기능 추가
+fix: 헤더 로고 변경 및 README 링크 업데이트
+refactor: frontend 폴더 구조 평탄화
+```
+
+## 브랜치 네이밍
+
+### 주요 브랜치
+
+- `main`: 프로덕션 배포 브랜치
+- `develop`: 개발 통합 브랜치
+
+### 피처 브랜치
+
+```
+<author>/<description>
+```
+
+- 작성자 이름과 간단한 설명을 슬래시로 구분
+- 설명은 kebab-case 사용
+
+### 예시
+
+```
+da-in/flatten-structure
+anveloper/add-color-picker
+```
